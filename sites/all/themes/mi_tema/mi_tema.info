@@ -1,0 +1,24 @@
+
+name = mi_tema
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/animate.min.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/prettyPhoto.css
+stylesheets[all][] = css/responsive.css
+
+drupal_add_js('js/bootstrap.min.js');
+drupal_add_js('js/html5shiv.js');
+drupal_add_js('js/html5shiv.min.js');
+drupal_add_js('js/jquery.isotope.min.js');
+drupal_add_js('js/jquery.js');
+drupal_add_js('js/jquery.prettyPhoto.js');
+drupal_add_js('js/main.js');
+drupal_add_js('js/respond.min.js');
+drupal_add_js('misc/wow.min.js');
